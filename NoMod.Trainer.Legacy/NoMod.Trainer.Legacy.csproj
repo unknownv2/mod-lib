@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NoMod.Assembling\NoMod.Assembling.csproj" />
+    <ProjectReference Include="..\NoMod.Debugging\NoMod.Debugging.csproj" />
+    <ProjectReference Include="..\NoMod.Engines.Mono\NoMod.Engines.Mono.csproj" />
+    <ProjectReference Include="..\NoMod.Hooking\NoMod.Hooking.csproj" />
+    <ProjectReference Include="..\NoMod.Loader\NoMod.Loader.csproj" />
+    <ProjectReference Include="..\NoMod.ModUI\NoMod.ModUI.csproj" />
+    <ProjectReference Include="..\NoMod.Unmanaged\NoMod.Unmanaged.csproj" />
+    <ProjectReference Include="..\NoMod.Win32\NoMod.Win32.csproj" />
+  </ItemGroup>
+
+</Project>

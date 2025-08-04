@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NoMod.Loader\NoMod.Loader.csproj" />
+    <ProjectReference Include="..\NoMod.Unmanaged\NoMod.Unmanaged.csproj" />
+    <ProjectReference Include="..\NoMod.Win32\NoMod.Win32.csproj" />
+  </ItemGroup>
+
+</Project>
